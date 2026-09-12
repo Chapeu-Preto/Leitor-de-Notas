@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f5f9;
+    color: #22304a;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+div {
+    text-align: center;
+}
+
+.total {
+    background-color: #0f766e;
+    color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    border-radius: 18px;
+}
+
+h1 {  
+    text-align: center;
+}
+
+.texto-explicativo {
+    color: #6b7a94;
+    text-align: center;
+    margin: 16px;
+}
+
+.total-gasto {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+label {
+    background-color: #ffffff;  /* troca cor de fundo */
+    border-radius: 16px;  /* define o arredondamento das bordas */
+    padding: 28px;  /* define o espaçamento interno */
+    text-align: center;  /* alinha texto ao centro */
+    font-weight: bold;  /* "Peso" da fonte / Negrito */
+    border: 4px dashed #c3cfe0;
+    display: block;  /* o item ocupe uma linha só dele */
+    margin: 16px;  /* distância os itens */
+    cursor: pointer;  /* muda o cursor do mouse - mãozinha */
+}
+
+input {
+    display: none;
+}

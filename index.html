@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Leitor Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.puter.com/v2/"></script>
+</head>
+
+<body>
+    <div>
+        <h1>📸 Gasto na Foto</h1>
+        <p class="texto-explicativo">Fotografe o comprovante. A IA anota pra você.</p>
+    </div>
+
+    <div class="total">
+        <p>Total gasto</p>
+        <h2 class="valor-calculo">R$ 0,00</h2>
+        <p>0 comprovantes lidos</p>
+    </div>
+
+    <label>
+        🧾 Toque para fotografar o comprovante
+        <input class="foto" onchange="lerFoto()" type="file" accept="image/*">
+    </label>
+
+    <div class="lista">
+
+    </div>
+    
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
